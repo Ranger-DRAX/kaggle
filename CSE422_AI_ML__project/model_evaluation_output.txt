@@ -1,0 +1,86 @@
+
+Model Name: LogisticRegression
+Accuracy: 0.8437462525482672
+Confusion Matrix:
+[[2714  743]
+ [ 560 4322]]
+Classification Report:
+              precision    recall  f1-score   support
+
+         0.0       0.83      0.79      0.81      3457
+         1.0       0.85      0.89      0.87      4882
+
+    accuracy                           0.84      8339
+   macro avg       0.84      0.84      0.84      8339
+weighted avg       0.84      0.84      0.84      8339
+
+
+Model Name:  DecisionTreeClassifier
+Accuracy: 0.7735939561098453
+Confusion Matrix:
+[[2498  959]
+ [ 929 3953]]
+Classification Report:
+              precision    recall  f1-score   support
+
+         0.0       0.73      0.72      0.73      3457
+         1.0       0.80      0.81      0.81      4882
+
+    accuracy                           0.77      8339
+   macro avg       0.77      0.77      0.77      8339
+weighted avg       0.77      0.77      0.77      8339
+
+
+Model Name: KNN
+Accuracy: 0.8052524283487229
+Confusion Matrix:
+[[2486  971]
+ [ 653 4229]]
+Classification Report:
+              precision    recall  f1-score   support
+
+         0.0       0.79      0.72      0.75      3457
+         1.0       0.81      0.87      0.84      4882
+
+    accuracy                           0.81      8339
+   macro avg       0.80      0.79      0.80      8339
+weighted avg       0.80      0.81      0.80      8339
+
+
+Model Name: Linear Regression
+
+Model Name: Decision Tree
+Mean Absolute Error (MAE): 0.22700563616740616
+Mean Squared Error (MSE): 0.22700563616740616
+R-Squared Score (R2): 0.06466446731228437
+
+Model Name: Random Forest
+Mean Absolute Error (MAE): 0.22643842187312627
+Mean Squared Error (MSE): 0.11958674901067275
+R-Squared Score (R2): 0.5072645002267575
+
+Model Name: Gradient Boosting
+Mean Absolute Error (MAE): 0.24495679639292745
+Mean Squared Error (MSE): 0.11419693087491252
+R-Squared Score (R2): 0.5294722678496877
+
+Model Name: XGBoost
+Mean Absolute Error (MAE): 0.24169448249885922
+Mean Squared Error (MSE): 0.1201116727319505
+R-Squared Score (R2): 0.5051016472828787
+
+Model Name: Naive Bayes
+Accuracy: 0.41539752967981775
+Confusion Matrix:
+[[3457    0]
+ [4875    7]]
+Classification Report:
+              precision    recall  f1-score   support
+
+         0.0       0.41      1.00      0.59      3457
+         1.0       1.00      0.00      0.00      4882
+
+    accuracy                           0.42      8339
+   macro avg       0.71      0.50      0.29      8339
+weighted avg       0.76      0.42      0.24      8339
+
